@@ -1,6 +1,0 @@
-com\qa\utilities\Constants.class
-com\qa\utilities\ConfigReader.class
-com\Pages\AccountPage.class
-com\Pages\LoginPage.class
-com\qa\Factory\DriverFactory.class
-com\qa\utilities\ElementUtils.class

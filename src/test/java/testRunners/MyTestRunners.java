@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = { "src\\test\\resources\\com\\Feature" }, 
-		glue = { "stepdefinitions",		"appHooks" }, 
+		glue = { "parallel",		"appHooks" }, 
 		plugin = { "pretty",				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"},
 		monochrome = true)
